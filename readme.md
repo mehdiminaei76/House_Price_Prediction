@@ -22,10 +22,15 @@ LSTAT: % lower status of the population <br>
 MEDV: Median value of owner-occupied homes in $1000s <br>
 
 ### Data Pre-Processing
-We first try to replace null values of numerical columns with their average. After that, we convert categorical features into one-hot encoding. 
-We then normalize the features. <br>
+I first tried to replace null values of numerical columns with their average. After that, I convert categorical features into one-hot encoding. 
+I then normalize the features. <br>
 After that, the data is split into training and test test. 
 
 ### ML Models
-We look at a few different regression model to predict house prices. Specifically, we use linear regression, random forest, and neural network with one hidden layer. <br>
+I look at a few different regression model to predict house prices. Specifically, we use linear regression, random forest, and neural network with one hidden layer. <br>
 For each of these models, we consider a range of hyper-parameters and tune them using grid-search.
+
+### Related Libraries
+I use the following libraries for this project: 
+* [Scikit-Learn](https://scikit-learn.org/stable/)
+* [Matplotlib](https://matplotlib.org/)
