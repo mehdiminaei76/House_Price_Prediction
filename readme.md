@@ -16,6 +16,16 @@ AGE: proportion of owner-occupied units built prior to 1940 <br>
 DIS: weighted distances to ﬁve Boston employment centers <br>
 RAD: index of accessibility to radial highways <br>
 TAX: full-value property-tax rate per $10,000 <br>
-PTRATIO: pupil-teacher ratio by town 12. B: 1000(Bk−0.63)2 where Bk is the proportion of blacks by town <br>
+PTRATIO: pupil-teacher ratio by town <br>
+B: 1000(Bk−0.63)2 where Bk is the proportion of blacks by town <br>
 LSTAT: % lower status of the population <br>
 MEDV: Median value of owner-occupied homes in $1000s <br>
+
+### Data Pre-Processing
+We first try to replace null values of numerical columns with their average. After that, we convert categorical features into one-hot encoding. 
+We then normalize the features. <br>
+After that, the data is split into training and test test. 
+
+### ML Models
+We look at a few different regression model to predict house prices. Specifically, we use linear regression, random forest, and neural network with one hidden layer. <br>
+For each of these models, we consider a range of hyper-parameters and tune them using grid-search.
