@@ -7,6 +7,7 @@ Boston House Price Dataset from Kaggle is used for this study, and it can be dow
 The data was drawn from the Boston Standard Metropolitan Statistical Area (SMSA) in 1970. The attributes are deﬁned as follows (taken from the UCI Machine Learning Repository1): 
 
 CRIM: per capita crime rate by town
+
 ZN: proportion of residential land zoned for lots over 25,000 sq.ft.
 INDUS: proportion of non-retail business acres per town
 CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
