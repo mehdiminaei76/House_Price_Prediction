@@ -6,11 +6,10 @@ This repository provides an overview of my code for training and testing machine
 Boston House Price Dataset from Kaggle is used for this study, and it can be downloaded from this [link](https://www.kaggle.com/datasets/vikrishnan/boston-house-prices). 
 The data was drawn from the Boston Standard Metropolitan Statistical Area (SMSA) in 1970. The attributes are deﬁned as follows (taken from the UCI Machine Learning Repository1): 
 
-CRIM: per capita crime rate by town
-
-ZN: proportion of residential land zoned for lots over 25,000 sq.ft.
-INDUS: proportion of non-retail business acres per town
-CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+CRIM: per capita crime rate by town <br>
+ZN: proportion of residential land zoned for lots over 25,000 sq.ft. <br>
+INDUS: proportion of non-retail business acres per town <br>
+CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise) <br>
 NOX: nitric oxides concentration (parts per 10 million)
 RM: average number of rooms per dwelling
 AGE: proportion of owner-occupied units built prior to 1940
